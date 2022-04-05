@@ -1,20 +1,24 @@
-import React from 'react'
+import React from "react";
 import "./userprofile.scss";
 
-function userprofile () {
+function userprofile() {
   return (
-    <div className = "container">
-        <form method="">
-            <div className="row">
-                <div className="image">
-                    <img src="picture.jpg" alt="profile">
-                        
-                    </img>
-                </div>
-            </div>
-        </form>
+    <div className="container">
+      <div className="container__picture">
+        <img src="picture.jpg"></img>
+      </div>
+      <div className="container__text">
+        <div class="main__text-1"> Jermey Rose </div>
+        <div class="main__text-2">
+        location
+        </div>
+        <div class="main__text-1"></div>
+        <div class="main__text-1"></div>
+        <div class="main__text-1"></div>
+
+      </div>
     </div>
-  )
+  );
 }
 
-export default userprofile
+export default userprofile;
