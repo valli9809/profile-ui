@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
+import Header from './components/header/js/header';
+import './styles/index.scss';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div className="profile_ui">
+    <Header/>
+  </div>,
   document.getElementById('root')
 );
 
