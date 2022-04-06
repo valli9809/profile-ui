@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header/js/header';
+import Leftsidenavbar from './components/header/leftsidenavbar/js2/leftsidenavbar';
 import './styles/index.scss';
+
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <div className="profile_ui">
     <Header/>
+    <Leftsidenavbar/>
+    
   </div>,
   document.getElementById('root')
 );

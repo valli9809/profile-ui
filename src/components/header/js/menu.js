@@ -9,6 +9,7 @@ function Menu(){
             <div className='menu'>Messages <span className='message-notifications'>4</span></div>
             <div className='menu'>My Contacts</div>
             <FontAwesomeIcon icon={ faCircleUser } className="user-icon" />
+            
             <div className='user active'></div>
         </div>
     );
