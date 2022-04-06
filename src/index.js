@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header/js/header';
-import Leftsidenavbar from './components/header/leftsidenavbar/js2/leftsidenavbar';
+import Sidebar from './components/sidebar/js/sidebar';
+import Content from './components/content/js/content';
 import './styles/index.scss';
 
 
@@ -11,7 +12,10 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <div className="profile_ui">
     <Header/>
-    <Leftsidenavbar/>
+    <div className='page-main'>
+      <Sidebar/>
+      <Content/>
+    </div>
     
   </div>,
   document.getElementById('root')
