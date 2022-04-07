@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Header from "./components/header/js/header";
 import Sidebar from "./components/sidebar/js/sidebar";
 import Content from "./components/content/js/content";
-import About from "./components/about/js/about";
+
 
 import "./styles/index.scss";
 
@@ -16,9 +16,7 @@ ReactDOM.render(
       <Sidebar />
       <Content />
     </div>
-    <div className="about">
-      <About />
-    </div>
+    
   </div>,
   document.getElementById("root")
 );
