@@ -1,24 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './components/header/js/header';
-import Sidebar from './components/sidebar/js/sidebar';
-import Content from './components/content/js/content';
-import './styles/index.scss';
+import React from "react";
+import ReactDOM from "react-dom";
+import Header from "./components/header/js/header";
+import Sidebar from "./components/sidebar/js/sidebar";
+import Content from "./components/content/js/content";
+import About from "./components/about/js/about";
 
+import "./styles/index.scss";
 
-import reportWebVitals from './reportWebVitals';
-
+import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <div className="profile_ui">
-    <Header/>
-    <div className='page-main'>
-      <Sidebar/>
-      <Content/>
+    <Header />
+    <div className="page-main">
+      <Sidebar />
+      <Content />
     </div>
-    
+    <div className="about">
+      <About />
+    </div>
   </div>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
