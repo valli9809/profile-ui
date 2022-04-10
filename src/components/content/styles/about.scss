@@ -1,16 +1,28 @@
-.Number{
-    color: rgb(24, 120, 230)
-}
-.ContactInfo {
-    color:  rgb(173, 173, 173);   
-}
-.id{
-    color: rgb(24, 120, 230)
-}
-.wname{
-    color: rgb(24, 120, 230)
-}
-.BasicInfo{
-    color:  rgb(173, 173, 173);   
-
+.about-page{
+    .title{
+        font-size: 12px;
+        font-weight: 700;
+        color:  rgb(179, 179, 179);
+    }
+    .details{
+        padding: 30px 0px;
+        td{
+            padding: 10px 0px;
+        }
+        .label{
+            vertical-align: text-top;
+            width: 120px;
+            color:  rgb(102, 102, 102);
+            font-weight: 700;
+        }
+        .value{
+            vertical-align: text-top;
+            font-size: 14px;
+            font-weight: 600;
+            color:  rgb(17, 155, 189);
+            p{
+                margin: 0px;
+            }
+        }
+    }
 }

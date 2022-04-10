@@ -10,8 +10,6 @@ const Sidebar = () => {
       <Work/>
       <Skills/>
     </div>
-    
-
   );
 };
 
